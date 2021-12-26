@@ -1,0 +1,170 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr-UltraLight';
+	src: url('fonts/helveticaneuecyr-ultralight.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/helveticaneuecyr-ultralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/helveticaneuecyr-ultralight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/helveticaneuecyr-ultralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/helveticaneuecyr-ultralight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/helveticaneuecyr-ultralight.svg#helveticaneuecyr-ultralight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(img/mainBackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 1500px;
+	max-height: 3000px;
+		
+}
+
+header{
+	justify-content: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: white;
+	font-weight: 700;
+
+}
+
+
+.conteiner{
+	 /*background-color: #393939;*/
+	 margin: 0px 200px;
+	 height: 100%;
+	 margin-top: 100px;
+	 min-width: 700px;
+
+}
+
+ .head h1{
+ 	margin-left: 10px;
+ }
+ .language{
+ 	/*font-weight: bold;*/
+ 	font-size: 18px;
+ 	position: absolute;
+ 	right: 20px;
+ 	top: 465px;
+ 	color: white;
+ 	font-family: 'HelveticaNeueCyr-UltraLight';
+ }
+ .language a{
+ 	color: white;
+ }
+ .language >a:hover{
+ 	color: white;
+
+ }
+ .logo{
+ 	 position: relative;
+ 	 width: 100%;
+ }
+.logo img{
+ 	width: 100%;
+ }
+ .caption{
+ 	position: absolute;
+ 	right: 20px;
+ 	top: 465px;
+ 	color: white;
+ 	top: 70px;
+ 	left: 100px;
+ 	font-family: 'HelveticaNeueCyr-UltraLight';
+ 	font-size: 36px;
+ 	font-weight: 900;
+ 	transition: .5s;
+ }
+[class*="caption"]:hover{
+	transform: scale(1.07);
+	animation: notransform 3s infinite;
+	animation-delay: 1s;
+
+}
+ .buttonConteiner{
+ 	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: 'HelveticaNeueCyr-UltraLight';
+ }
+ .button{
+ 	background-color: gray;
+ 	width: 530px;
+ 	min-width: 350px;
+ 	height: 200px;
+ 	margin-bottom: 15px;
+ 	transition: .1s;
+ }
+.namecours{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 25px;
+	transition: .5s;
+}
+[id*="button_1"]:hover{
+	transform: scale(1.025);
+	animation: notransform 3s infinite;
+	animation-delay: 1s;
+
+}
+[id*="button_2"]:hover{
+	transform: scale(1.025);
+	animation: notransform 3s infinite;
+	animation-delay: 1s;
+
+}
+[id*="button_3"]:hover{
+	transform: scale(1.025);
+	animation: notransform 3s infinite;
+	animation-delay: 1s;
+
+}
+[id*="button_4"]:hover{
+	transform: scale(1.025);
+	animation: notransform 3s infinite;
+	animation-delay: 1s;
+
+}
+
+#button_1{
+	background: url(img/button_1.jpg);
+	background-size: 530px 210px;
+}
+#button_2{
+	background: url(img/button_2.jpg);
+	background-size: 530px 210px;
+}
+#button_3{
+	background: url(img/button_3.jpg);
+	background-size: 530px 210px;
+}
+#button_4{
+	background: url(img/button_4.jpg);
+	background-size: 530px 210px;
+}
+
+footer{
+	 margin: 0px 200px;
+	 height: 100%;
+	 min-width: 700px;
+	 text-align: center;
+	 color: white;
+	 font-size: 18px;
+	 font-family: 'HelveticaNeueCyr-UltraLight';
+	 transition: .5s;
+}
+footer a{
+	color:white;
+	font-size: 18px;
+	font-family: 'HelveticaNeueCyr-UltraLight';
+}
+footer >a:hover{
+	color: white;
+}
